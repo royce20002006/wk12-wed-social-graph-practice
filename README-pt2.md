@@ -28,8 +28,8 @@ users to follow.
 
 It finds recommendations by the follows of that user's follows. The distance the algorithm will search for recommended follows is represented by the `degrees` integer.
 
-* degrees = 1 -> Users your follows also follow
-* degrees = 2 -> Users your follows follows also follow
+* degrees = 1 -> Users your follows also follow    // the people you and your followers both follow
+* degrees = 2 -> Users your follows follows also follow  //the people you and your followers followers  both follow
 * degrees = 3 -> Users your follows follows follows also follow
 
 For example:
